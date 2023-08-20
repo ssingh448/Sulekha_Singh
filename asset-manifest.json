@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Sulekha_Singh/static/css/main.073c9b0a.css",
+    "main.js": "/Sulekha_Singh/static/js/main.14e07196.js",
+    "static/js/787.003aebac.chunk.js": "/Sulekha_Singh/static/js/787.003aebac.chunk.js",
+    "static/media/logo.svg": "/Sulekha_Singh/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Sulekha_Singh/index.html",
+    "main.073c9b0a.css.map": "/Sulekha_Singh/static/css/main.073c9b0a.css.map",
+    "main.14e07196.js.map": "/Sulekha_Singh/static/js/main.14e07196.js.map",
+    "787.003aebac.chunk.js.map": "/Sulekha_Singh/static/js/787.003aebac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.14e07196.js"
+  ]
+}
