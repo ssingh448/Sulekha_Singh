@@ -3,11 +3,7 @@ header{
     line-height: 10vh;
 }
 header .container{
-    padding-top: 10px;
-}
-.logo{
-    width: 10px;
-    height: 10px;
+    padding-top: 15px;
 }
 header ul li{
     margin-left: 30px;
@@ -18,25 +14,11 @@ header ul li a{
     font-weight: 500;
     letter-spacing: 1px;
 }
-header li p{
-    margin-left: 10px;
-    margin-top: -5px;
-    transition: 0.5s;
-    font-size: 15px;
-    /*font-weight: 500;*/
-    letter-spacing: 1px;
-}
-header img{
-    margin-top: 15px;
-}
-header li p:hover{
-    color: #3fcdf1;
-}
 header ul li a:hover{
     color: #3fcdf1;
 }
 .home-btn {
-    padding: 18px 25px;
+    padding: 10px 20px;
     border-radius: 6px;
     transition: 0.3s all ease;
     cursor: pointer;
@@ -64,9 +46,9 @@ header ul li a:hover{
     box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
     transition: 0.5s;
 }
-@media (max-width: 768px) {
+@media (max-width: 915px) {
     header ul {
-        padding-top: 10px;
+        padding-top: 1px;
     }
     .nav-links-mobile {
         position: absolute;
@@ -94,7 +76,7 @@ header ul li a:hover{
     .close,
     .open {
         position: absolute;
-        top: 35px;
+        top: 20px;
         right: 20px;
         color: #ff014f;
         display: block;
@@ -107,14 +89,15 @@ header ul li a:hover{
     .close.home-btn {
         background: linear-gradient(145deg, #e2e8ec, #ffffff);
         color: #ff014f;
-        border-radius: 50%;
+        border-radius: 100%;
         padding: 0;
-        width: 60px;
-        height: 60px;
-        line-height: 60px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
     }
     .header.active {
-        height: 10vh;
+        height: 70px;
+        transition: 0.1s;
     }
 
 }

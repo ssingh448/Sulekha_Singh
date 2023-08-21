@@ -27,7 +27,7 @@ const Features = (props) => {
                     {/*    </div>*/}
                     {/*</div>*/}
 
-                    <div className='content gridd'>
+                    <div className='content-gridd'>
                         {data.map((val, index) => {
                             return <Card key={index} image={val.image} title={val.title} desc={val.desc} skills ={val.skills} />
                         })}

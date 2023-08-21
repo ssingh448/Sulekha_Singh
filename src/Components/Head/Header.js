@@ -4,21 +4,24 @@ import "./Header.css"
 import pdf1 from "../Reports_PDF/pdf1.pdf"
 
 const Header = () => {
+    // Toogle Menu
+    const [Mobile, setMobile] = useState(false)
     // fixed Header
     window.addEventListener("scroll", function () {
         const header = document.querySelector(".header")
         header.classList.toggle("active", window.scrollY > 100)
     })
-    // Toogle Menu
-    const [Mobile, setMobile] = useState(false)
+    // console.log(Mobile)
+
+
     return (
         <>
             <header className='header'>
                 <div className='container d_flex'>
-                    <div className='link f_flex uppercase'>
-                        <li>
-                            <img src={require("../pic/sulekha_circle.png")} alt='' height='50px'  />
-                        </li>
+                    <div className='logo'>
+                        {/*<li>*/}
+                        <img src={require("../pic/sulekha_circle.png")} alt='' height='50px'/>
+                        {/*</li>*/}
                         {/*<li>*/}
                         {/*    <p>SULEKHA SINGH</p>*/}
                         {/*</li>*/}
@@ -54,9 +57,9 @@ const Header = () => {
                             {/*</li>*/}
                         </ul>
 
-                        {/*<button className='toggle' onClick={() => setMobile(!Mobile)}>*/}
-                        {/*    {Mobile ? <i className='fas fa-times close home-btn'></i> : <i className='fas fa-bars open'></i>}*/}
-                        {/*</button>*/}
+                        <button className='toggle' onClick={() => setMobile(!Mobile)}>
+                            {Mobile ? <i className='fas fa-times close home-btn'></i> : <i className='fas fa-bars open'></i>}
+                        </button>
                     </div>
                 </div>
             </header>

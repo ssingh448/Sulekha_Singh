@@ -28,6 +28,7 @@ body{
 }
 .f_flex{
   display: flex;
+  /*justify-content: flex-start;*/
 }
 a{
   text-decoration: none;
@@ -73,16 +74,16 @@ button{
 .right{
   width: 50%;
 }
-.leftt {
-  width: 20%;
-  /*margin-top: 20px;*/
-  margin-right: 20px;
-}
-.rightt {
-  width: 80%;
-}
+/*.leftt {*/
+/*  width: 10%;*/
+/*  !*margin-top: 20px;*!*/
+/*  !*margin-right: 20px;*!*/
+/*}*/
+/*.rightt {*/
+/*  width: 50%;*/
+/*}*/
 .top {
-  margin-top: 80px;
+  margin-top: 30px;
 }
 .mtop {
   margin-top: 40px;
@@ -106,6 +107,16 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 35px;
+}
+.gridd {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 p {
   color: #3c3e41;
