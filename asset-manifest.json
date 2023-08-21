@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Sulekha_Singh/static/css/main.8296d862.css",
-    "main.js": "/Sulekha_Singh/static/js/main.b363b389.js",
+    "main.css": "/Sulekha_Singh/static/css/main.03aaea2f.css",
+    "main.js": "/Sulekha_Singh/static/js/main.85244da5.js",
     "static/js/787.003aebac.chunk.js": "/Sulekha_Singh/static/js/787.003aebac.chunk.js",
     "static/media/sulekha.png": "/Sulekha_Singh/static/media/sulekha.5f2d2bd5c1f72b038100.png",
     "static/media/sulekha_circle.png": "/Sulekha_Singh/static/media/sulekha_circle.1bec76bc9d8e6cd98d4c.png",
     "static/media/pdf1.pdf": "/Sulekha_Singh/static/media/pdf1.18385fecbd92c2a1cc84.pdf",
     "index.html": "/Sulekha_Singh/index.html",
-    "main.8296d862.css.map": "/Sulekha_Singh/static/css/main.8296d862.css.map",
-    "main.b363b389.js.map": "/Sulekha_Singh/static/js/main.b363b389.js.map",
+    "main.03aaea2f.css.map": "/Sulekha_Singh/static/css/main.03aaea2f.css.map",
+    "main.85244da5.js.map": "/Sulekha_Singh/static/js/main.85244da5.js.map",
     "787.003aebac.chunk.js.map": "/Sulekha_Singh/static/js/787.003aebac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8296d862.css",
-    "static/js/main.b363b389.js"
+    "static/css/main.03aaea2f.css",
+    "static/js/main.85244da5.js"
   ]
 }
