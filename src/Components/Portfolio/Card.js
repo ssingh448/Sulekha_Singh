@@ -28,7 +28,7 @@ const Card = (props) => {
                 <div className='title'>
                     <h2 onClick={toggleModal}>{props.title}</h2>
                     {/*<p>{props.image}</p>*/}
-                    <p>{props.about}</p>
+                    <p onClick={toggleModal}>{props.about}</p>
                 </div>
             </div>
 
@@ -41,13 +41,13 @@ const Card = (props) => {
 
                     <div className='modal-content'>
 
-                        <div className='modal-img left'>
+                        <div className='modal-text'>
                             {props.content}
                         </div>
-                        <div className='modal-text right'>
-                            <button className='close-modal btn_shadow' onClick={toggleModal}>
-                                <i className='fas fa-times'></i>
-                            </button>
+                        <div className='modal-text top'>
+                        <button className='close-modal btn_shadow' onClick={toggleModal}>
+                            <i className='fas fa-times'></i>
+                        </button>
 
                         </div>
                     </div>
