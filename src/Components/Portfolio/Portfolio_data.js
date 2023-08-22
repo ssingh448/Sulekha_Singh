@@ -5,7 +5,7 @@ import Blog2 from "./blog2";
 const Portfolio_data = [
     {
         id: 1,
-        category: "DEVELOPMENT",
+        category: "DEVELOPMENT | WEB APP | COMPUTER VISION",
         title: "The services provide for design ",
         about: "about me",
         image: "skill1.png",

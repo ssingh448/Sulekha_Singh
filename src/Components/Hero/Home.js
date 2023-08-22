@@ -1,9 +1,9 @@
 import React from "react"
 import "./Home.css"
 import sulekha from "../pic/sulekha.png"
-import skill1 from "../pic/skill1.png"
-import skill2 from "../pic/skill2.png"
-import skill3 from "../pic/skill3.png"
+// import skill1 from "../pic/skill1.png"
+// import skill2 from "../pic/skill2.png"
+// import skill3 from "../pic/skill3.png"
 // import { Typewriter } from "react-simple-typewriter"
 
 
@@ -29,7 +29,15 @@ const Home = (props) => {
                         {/*</h2>*/}
 
                         <div className='para'>
-                            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
+                            <p>
+                                Welcome to my digital profile! I am an enthusiastic and dedicated individual currently pursuing a Master's degree in Computer Science at the Georgia Institute of Technology. My academic journey revolves around a passion for innovation, data-driven insights, and the dynamic world of computer science.  The program's rigorous curriculum has equipped me with a solid foundation in algorithms, artificial intelligence, data science, and software engineering, among other critical areas.
+                            </p>
+                            <p>
+                                My current role as VDC/ Innovation Engineer in Construction has empowered me to effect transformative change by implementing cutting-edge technological advancements. My efforts revolve around enhancing construction efficiency and productivity, leveraging data-driven insights, optimizing project timelines through data engineering and the strategic deployment of AI and machine learning solutions.
+                            </p>
+                            <p>
+                                Looking ahead, I am eager to collaborate with like-minded professionals and engage in projects that can positively impact society and industries.
+                            </p>
                         </div>
 
                     </div>
