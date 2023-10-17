@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import "./Header.css"
 // import logo from "../pic/logo512.png"
 import pdf1 from "../Reports_PDF/pdf1.pdf"
+import Software_Resume from "../Reports_PDF/Software_Resume.pdf"
 
 const Header = () => {
     // Toogle Menu
@@ -41,7 +42,7 @@ const Header = () => {
                                 <a href='#portfolio'>portfolio</a>
                             </li>
                             <li>
-                                <a href={pdf1} >resume</a>
+                                <a href={Software_Resume} >resume</a>
                             </li>
                             {/*<li>*/}
                             {/*    <a href='#clients'>clients</a>*/}
