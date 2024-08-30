@@ -45,7 +45,7 @@ const Portfolio = () => {
 
                         <div className='navlink'>
 
-                            <a href="/#portfolio" active={filter === ''} onClick={() => setFilter('')}>
+                            <a href="/Sulekha_Singh/#portfolio" active={filter === ''} onClick={() => setFilter('')}>
                                 <button className='btn_shadow'>
                                     <h2> ALL </h2>
                                     {/*<i className="fab fa-github"></i>*/}
