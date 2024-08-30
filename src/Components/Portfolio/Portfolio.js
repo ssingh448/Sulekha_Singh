@@ -52,28 +52,28 @@ const Portfolio = () => {
                                 </button>
                             </a>
 
-                            <a href="/#portfolio" active={filter === 'FIGMA'} onClick={() => setFilter('FIGMA')}>
+                            <a active={filter === 'FIGMA'} onClick={() => setFilter('FIGMA')}>
                             <button className='btn_shadow'>
                                 <h2> FIGMA </h2>
                                 {/*<i className="fab fa-github"></i>*/}
                             </button>
                         </a>
 
-                            <a href="/#portfolio" active={filter === 'APPLICATION'} onClick={() => setFilter('APPLICATION')}>
+                            <a active={filter === 'APPLICATION'} onClick={() => setFilter('APPLICATION')}>
                                 <button className='btn_shadow'>
                                     <h2> APPLICATION </h2>
                                     {/*<i className="fab fa-github"></i>*/}
                                 </button>
                             </a>
 
-                            <a href="/#portfolio" active={filter === 'PHOTOSHOP'} onClick={() => setFilter('PHOTOSHOP')}>
+                            <a active={filter === 'PHOTOSHOP'} onClick={() => setFilter('PHOTOSHOP')}>
                                 <button className='btn_shadow'>
                                     <h2> PHOTOSHOP </h2>
                                     {/*<i className="fab fa-github"></i>*/}
                                 </button>
                             </a>
 
-                            <a href="/#portfolio" active={filter === 'WEB DESIGN'} onClick={() => setFilter('WEB DESIGN')}>
+                            <a active={filter === 'WEB DESIGN'} onClick={() => setFilter('WEB DESIGN')}>
                                 <button className='btn_shadow'>
                                     <h2> WEB DESIGN </h2>
                                     {/*<i className="fab fa-github"></i>*/}
