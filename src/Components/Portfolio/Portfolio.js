@@ -16,7 +16,7 @@ const Portfolio = () => {
     //     user.category.toLowerCase().match("application")
     // );
 
-    const [filter, setFilter] = useState('all');
+    const [filter, setFilter] = useState('');
     const [projects, setProjects] = useState([]);
     useEffect(() => {
         setProjects(Portfolio_data);
