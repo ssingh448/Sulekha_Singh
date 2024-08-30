@@ -27,6 +27,11 @@ const Portfolio = () => {
         setProjects(filtered);
     }, [filter]);
 
+    window.addEventListener("scroll", function () {
+        const header = document.querySelector(".header")
+        header.classList.toggle("active", window.scrollY > 100)
+    })
+
     return (
         <>
             <section className='Portfolio top' id='portfolio'>
@@ -40,7 +45,7 @@ const Portfolio = () => {
 
                         <div className='navlink'>
 
-                            <a href="/#" active={filter === ''} onClick={() => setFilter('')}>
+                            <a href="/#portfolio" active={filter === ''} onClick={() => setFilter('')}>
                                 <button className='btn_shadow'>
                                     <h2> ALL </h2>
                                     {/*<i className="fab fa-github"></i>*/}
