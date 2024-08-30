@@ -10,6 +10,7 @@ const Portfolio_data = [
         about: "about me",
         image: "skill1.png",
         content: <Blog1/>,
+        link: 'https://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files',
     },
     {
         id: 2,
@@ -18,6 +19,7 @@ const Portfolio_data = [
         about: "about me",
         image: "skill1.png",
         content: <Blog2/>,
+        link: 'https://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files',
     },
     {
         id: 3,
@@ -26,6 +28,7 @@ const Portfolio_data = [
         about: "about me",
         image: "skill1.png",
         content: <Blog1/>,
+        link: 'https://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files',
     },
     {
         id: 4,
@@ -34,6 +37,7 @@ const Portfolio_data = [
         about: "about me",
         image: "skill1.png",
         content: <Blog1/>,
+        link: 'https://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files',
     },
     {
         id: 5,
@@ -42,6 +46,7 @@ const Portfolio_data = [
         about: "about me",
         image: "skill1.png",
         content: <Blog1/>,
+        link: 'https://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files',
     },
     {
         id: 6,
@@ -50,6 +55,7 @@ const Portfolio_data = [
         about: "about me",
         image: "skill1.png",
         content: <Blog1/>,
+        link: 'https://stackoverflow.com/questions/10657315/git-merge-left-head-marks-in-my-files',
     },
 ]
 export default Portfolio_data

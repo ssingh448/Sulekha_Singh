@@ -89,7 +89,7 @@ const Portfolio = () => {
                         <h4></h4>
                     </div>
 
-                    <div className='content grid'>
+                    <div className='content gridd'>
 
                         {/*{projects.map(item => item.filtered === true ? (*/}
                         {/*    <span key={item.title}>*/}
@@ -99,7 +99,7 @@ const Portfolio = () => {
 
                         {projects.map(value => value.filtered === true ? (
                             <Card key={value.title} image={value.image} category={value.category} title={value.title}
-                                  about={value.about} content={value.content}/>
+                                  about={value.about} content={value.content} link={value.link}/>
                         ) : null)}
 
                         {/*{projects.map((value , index) => {*/}

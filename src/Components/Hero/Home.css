@@ -51,6 +51,11 @@
     margin: 10px 0 0 0;
     height: 1vh;
 }
+
+.hero_btn:hover h2{
+    color: #b5dee7;
+}
+
 .hero_btn button {
     margin-right: 30px;
 }
