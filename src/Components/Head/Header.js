@@ -39,7 +39,7 @@ const Header = () => {
                                 <a href='#features'>Skills</a>
                             </li>
                             <li>
-                                <a href='#portfolio'>portfolio</a>
+                                <a href='#portfolio' >portfolio</a>
                             </li>
                             <li>
                                 <a href={Sulekha_Singh_Resume} >resume</a>
