@@ -58,7 +58,7 @@ const Home = (props) => {
 
                         </a>
 
-                        <a href="https://github.com/ssingh448?tab=projects">
+                        <a href="https://github.com/ssingh448?tab=repositories">
                             <button className='btn_shadow'>
                                 <i className="fab fa-github"></i>
                             </button>

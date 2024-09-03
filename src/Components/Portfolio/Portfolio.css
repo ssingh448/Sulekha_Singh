@@ -70,9 +70,23 @@
     transition: 0.5s;
     padding-bottom: 30px;
 }
+
+.Portfolio h5 {
+    /*color: white;*/
+    font-size: 15px;
+    transition: 0.5s;
+    padding-bottom: 30px;
+    font-style: italic;
+    color: #c4c3c3;
+}
+
 .Portfolio .box:hover h2 {
     color: white;
 }
+
+/*.Portfolio .box:hover h5 {*/
+/*    color: white;*/
+/*}*/
 .Portfolio .box:hover span {
     color: #3fcdf1;
 }

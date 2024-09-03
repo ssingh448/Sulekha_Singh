@@ -12,7 +12,7 @@ const Card = (props) => {
                 <div className='modal-text rightt'>
                     {/*<span>Featured - Design</span>*/}
                     {/*var skill = {props.skills}*/}
-                    <h2>{props.skills}</h2>
+                    <h3>{props.skills}</h3>
                     {/*<h2> {props.skills?.map(e => {*/}
                     {/*    return e*/}
                     {/*    })}*/}

@@ -5,6 +5,7 @@ import Home from "./Components/Hero/Home";
 import Features from "./Components/Features/Features";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Footer from "./Components/Footer/Footer";
+import Blog from "./Components/Blog/Blog";
 
 
 const App = (props) => {
@@ -14,6 +15,7 @@ const App = (props) => {
         <Home />
         <Features />
         <Portfolio />
+          {/*<Blog/>*/}
         <Footer/>
 
       </>

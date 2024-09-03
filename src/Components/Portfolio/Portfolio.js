@@ -25,12 +25,13 @@ const Portfolio = () => {
         setProjects([]);
         const filtered = Portfolio_data.map(p => ({ ...p, filtered: p.category.includes(filter) }));
         setProjects(filtered);
+
     }, [filter]);
 
-    window.addEventListener("scroll", function () {
-        const header = document.querySelector(".header")
-        header.classList.toggle("active", window.scrollY > 100)
-    })
+    // window.addEventListener("scroll", function () {
+    //     const header = document.querySelector(".header")
+    //     header.classList.toggle("active", window.scrollY > 100)
+    // })
 
     return (
         <>
@@ -52,7 +53,7 @@ const Portfolio = () => {
                                 </button>
                             </a>
 
-                            <a active={filter === 'FIGMA'} onClick={() => setFilter('FIGMA')}>
+                            <a active={filter === 'FIGMA'} onClick={() => setFilter('FIGMA')} >
                             <button className='btn_shadow'>
                                 <h2> FIGMA </h2>
                                 {/*<i className="fab fa-github"></i>*/}
@@ -99,7 +100,7 @@ const Portfolio = () => {
 
                         {projects.map(value => value.filtered === true ? (
                             <Card key={value.title} image={value.image} category={value.category} title={value.title}
-                                  about={value.about} content={value.content} link={value.link}/>
+                                  about={value.about} tech = {value.tech_used} content={value.content} Githublink={value.Github_link} PDFlink={value.PDF_Link} IsPDF={value.IsPDF}/>
                         ) : null)}
 
                         {/*{projects.map((value , index) => {*/}

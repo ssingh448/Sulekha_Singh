@@ -6,8 +6,10 @@
 .features .box p {
     margin: 15px 0 10px 0;
 }
-.features .box h2 {
+.features .box h3 {
     margin: 10px 0 10px 0;
+    text-transform: uppercase;
+    font-weight: 450;
 }
 .features .box p {
     word-spacing: 2px;
@@ -20,15 +22,17 @@
     opacity: 0;
 }
 .features .box:hover {
-    background-color: #b5dee7;
+    background-color: #e3f0f3;
 }
 
 .features .box:hover h1 {
     /*color: #333030;*/
     color: black;
 }
-.features .box:hover h2 {
-    color: #10343d;
+.features .box:hover h3 {
+    color: #3d3d3d;
+    font-weight: 500;
+
 }
 .features .box:hover p {
     /*color: white;*/
@@ -44,7 +48,7 @@
     width: 100%;
 }
 .leftt{
-    width: 15%;
+    width: 20%;
 }
 .rightt{
     width: 100%;
