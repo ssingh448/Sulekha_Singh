@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Sulekha_Singh/static/css/main.678d6605.css",
-    "main.js": "/Sulekha_Singh/static/js/main.4f64024f.js",
+    "main.css": "/Sulekha_Singh/static/css/main.ffd42ddf.css",
+    "main.js": "/Sulekha_Singh/static/js/main.957b229e.js",
     "static/js/787.003aebac.chunk.js": "/Sulekha_Singh/static/js/787.003aebac.chunk.js",
     "static/media/sulekha.png": "/Sulekha_Singh/static/media/sulekha.5f2d2bd5c1f72b038100.png",
     "static/media/sulekha_circle.png": "/Sulekha_Singh/static/media/sulekha_circle.1bec76bc9d8e6cd98d4c.png",
     "static/media/Sulekha_Singh_Resume.pdf": "/Sulekha_Singh/static/media/Sulekha_Singh_Resume.75a73f9aa4fadf2710ac.pdf",
     "static/media/pdf1.pdf": "/Sulekha_Singh/static/media/pdf1.18385fecbd92c2a1cc84.pdf",
     "index.html": "/Sulekha_Singh/index.html",
-    "main.678d6605.css.map": "/Sulekha_Singh/static/css/main.678d6605.css.map",
-    "main.4f64024f.js.map": "/Sulekha_Singh/static/js/main.4f64024f.js.map",
+    "main.ffd42ddf.css.map": "/Sulekha_Singh/static/css/main.ffd42ddf.css.map",
+    "main.957b229e.js.map": "/Sulekha_Singh/static/js/main.957b229e.js.map",
     "787.003aebac.chunk.js.map": "/Sulekha_Singh/static/js/787.003aebac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.678d6605.css",
-    "static/js/main.4f64024f.js"
+    "static/css/main.ffd42ddf.css",
+    "static/js/main.957b229e.js"
   ]
 }
